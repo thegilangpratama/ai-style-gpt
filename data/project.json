@@ -1,0 +1,86 @@
+[
+  {
+    "title": "Pipeline Builder",
+    "associatedWith": "SnowHeap LLC",
+    "date": "June 2024 - August 2024",
+    "description": "I develop user-friendly interfaces that enable businesses to build AI-driven workflows. The platform’s no-code/low-code approach allows users to create data processing pipelines and customizable dashboards, making advanced AI and data analytics accessible to a wide range of users."
+  },
+  {
+    "title": "Crisis Monitoring Dashboard",
+    "associatedWith": "SnowHeap LLC",
+    "date": "March 2024 - June 2024",
+    "description": "I design a dashboard frontend to monitor crises based on news URLs inputted by users. The system allows for AI-generated crisis monitoring items or manual input by users, providing a flexible and responsive tool for real-time crisis management."
+  },
+  {
+    "title": "PowerPoint Report Generator",
+    "associatedWith": "SnowHeap LLC",
+    "date": "March 2024 - May 2024",
+    "description": "I create systems that convert data from executive dashboards into ready-made PowerPoint presentations. Using Python and FastAPI, I ensure seamless data transformation and automation, enabling efficient report generation directly from the dashboard."
+  },
+  {
+    "title": "Talent Finder",
+    "associatedWith": "SnowHeap LLC",
+    "date": "March 2024 - May 2024",
+    "description": "I design interfaces for an AI application that dynamically displays employee information. The frontend captures user input, sends prompts to a Large Language Model (LLM), and retrieves relevant results, providing contextual and efficient data retrieval based on user queries."
+  },
+  {
+    "title": "SmartHome App",
+    "associatedWith": "SnowHeap LLC",
+    "date": "Dec 2023 - March 2024",
+    "description": "I contributed to a smart home app that allows user interact to their smart devices, responsible for the frontend and convert the app to iOS app, and deployment to apple app store"
+  },
+  {
+    "title": "Life by IFG Web Platform",
+    "associatedWith": "IFG Life",
+    "date": "Sep 2023 - Nov 2023",
+    "description": "Responsible for driving user adoption and interaction, I optimize sales strategies and craft engaging initiatives for the Life by IFG Web Platform. My goal is to enhance the platform's appeal and ensure a dynamic user experience."
+  },
+  {
+    "title": "Life by IFG on App Store and Google Play Store",
+    "associatedWith": "IFG Life",
+    "date": "Oct 2023 - Nov 2023",
+    "description": "Contributing to sales and engagement, I enhance the appeal of the Life by IFG app on App Store and Google Play Store. My role involves optimizing sales strategies and fostering user participation for a compelling user experience."
+  },
+  {
+    "title": "Booking PWA",
+    "associatedWith": "CPR Vision Management",
+    "date": "Jan 2022 - Aug 2023",
+    "description": "As a contributor, I develop a One Stop Booking Solution with Progressive Web App support. Integrated with CRM and Payment Gateway, it's used by renowned brands globally."
+  },
+  {
+    "title": "DPC NX/IS",
+    "associatedWith": "CPR Vision Management",
+    "date": "Jan 2022 - Aug 2023",
+    "description": "Contributing to the development, I create a Digital Profile Card for online and in-store use. This next-generation solution enhances customer engagement and convenience."
+  },
+  {
+    "title": "Heineken Music Festival Campaign Platform",
+    "associatedWith": "CPR Vision Management",
+    "date": "Oct 2022 - Oct 2022",
+    "description": "As a lead contributor, I develop a campaign platform for Heineken Laos 2022 Music Festival. This platform enhances engagement and promotes the festival effectively."
+  },
+  {
+    "title": "William Grants and Sons Campaign Platform",
+    "associatedWith": "CPR Vision Management",
+    "date": "Sep 2022 - Oct 2022",
+    "description": "As a contributor, I develop a platform campaign for William Grants and Sons. The platform effectively promotes the brand's campaign."
+  },
+  {
+    "title": "Booking NX",
+    "associatedWith": "CPR Vision Management",
+    "date": "Jan 2021 - Sep 2022",
+    "description": "Contributing to the development, I create a one-stop Booking Solution integrated with CRM and Payment Gateway. Widely used by renowned brands worldwide."
+  },
+  {
+    "title": "Booking NX Integration with CRM",
+    "associatedWith": "CPR Vision Management",
+    "date": "Aug 2022 - Sep 2022",
+    "description": "Leading the integration, I connect Booking NX with CRMXS Feature. This integration enhances functionality and improves user experience."
+  },
+  {
+    "title": "Lazada DPC",
+    "associatedWith": "CPR Vision Management",
+    "date": "Jan 2022 - Apr 2022",
+    "description": "As a contributor, I develop a Digital Profile Card for Lazada eCommerce. This solution enhances customer engagement and convenience."
+  }
+]

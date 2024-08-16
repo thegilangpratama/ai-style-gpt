@@ -1,0 +1,26 @@
+[
+    {
+        "date": "December 2023 - Now",
+        "location": "📍 Sharjah Emirate, United Arab Emirates",
+        "company": "SnowHeap, LLC",
+        "role": "Full Stack Software Engineer for AI Application",
+        "description": "Following internal software development processes, the individual analyzes requirements, creates detailed technical designs with UML diagrams, and independently or collaboratively implements solutions. Thorough testing and effective progress communication in internal meetings are priorities. Direct client engagement includes providing technical support and promptly resolving reported issues to ensure project success.",
+        "tools": "Git, JIRA, Node.js, React.js, Next.JS, Postman, SCSS, Tailwind, Next.js, TypeScripts, Storybook, Presentation and Public Speaking."
+    },
+    {
+        "date": "October 2023 - December 2023",
+        "location": "📍 Jakarta, Indonesia",
+        "company": "Life Insurance by IFG, PT.",
+        "role": "Frontend Developer Lead",
+        "description": "Collaborating closely with Product Owners and Project Managers, the individual crafts tailored insurance products, efficiently managing Sprint cycles and user expectations. Proficient in React Native, JavaScript, and React JS, they contribute actively to robust software solutions and analyze complex technical challenges. Strong interpersonal skills are used to build consensus and influence decision-making, fostering a collaborative culture. The individual also provides clear direction and mentorship, promoting innovation within cross-functional teams.",
+        "tools": "BitBucket, JIRA, Jenkins, Node.js, React.js, Next.JS, React Native, Postman, SCSS, Tailwind, Next.js, TypeScripts, Presentation and Public Speaking."
+    },
+    {
+        "date": "January 2021 - September 2023",
+        "location": "📍 Kallang, Singapore",
+        "company": "CPR Vision Pte. Ltd.",
+        "role": "Fullstack Developer - Junior Team Lead",
+        "description": "Starting as a Fullstack Developer mainly focused on web development, I progressed to creating long-term plans for optimal performance in multi-project environments. Collaborating with managers, I transitioned to supervising teams, ensuring timely delivery, and translating technical concepts for effective communication. I estimated work hours using Scrum methodology and contributed hands-on to designing and developing programs. This marked a progression from project involvement to a leadership role in development planning and team supervision.",
+        "tools": "Agile & Scrum, Jira, Node.js, React.js, Next.JS, Postman, SCSS, Tailwind, PHP, Laravel, CodeIgniter, Docker, VM, Linux, LAMP, MySQL"
+    }
+]
