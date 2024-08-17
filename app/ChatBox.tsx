@@ -113,14 +113,14 @@ const ChatBox: React.FC<ChatBoxProps> = ({ messages, setMessages }) => {
                         </div>
                     </div>
                 ) : (
-                    <div className="relative flex-1 overflow-y-auto p-4 space-y-4 mx-10 mb-[275px]">
+                    <div className="relative flex-1 overflow-y-auto p-4 space-y-4 md:mx-10 mb-[105px] md:mb-[275px]">
                         {messages.map((msg, idx) => (
                             <div
                                 key={idx}
-                                className={`flex items-center justify-start`}
+                                className='flex items-center justify-start'
                             >
                                 <div
-                                    className={`w-8 h-8 rounded-full flex items-center justify-center border mr-2 bg-white`}
+                                    className='hidden w-8 h-8 rounded-full md:flex items-center justify-center border mr-2 bg-white'
                                 >
                                     {msg.type === 'user' ? (
                                         <FaUser className="text-black" />
@@ -129,7 +129,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ messages, setMessages }) => {
                                     )}
                                 </div>
                                 <div
-                                    className='p-3 text-sm text-white text-pretty'
+                                    className={`p-3 text-sm text-white text-pretty ${msg.type === 'user' ? 'italic md:not-italic' : ''}`}
                                 >
                                     {msg.type === 'user' ? msg.text : (idx === messages.length - 1 ? typedText : msg.text)}
                                 </div>
@@ -151,7 +151,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ messages, setMessages }) => {
             <div className="absolute bottom-0 w-full">
                 <div className='space-y-2'>
                     {messages.length ? (
-                        <div className='grid grid-cols-2 gap-4 mx-10 my-5'>
+                        <div className='hidden md:grid grid-cols-2 gap-4 mx-6 md:mx-10 my-5'>
                             {sampleQuestions.map((question, idx) => (
                                 <Card
                                     key={idx}
@@ -164,7 +164,7 @@ const ChatBox: React.FC<ChatBoxProps> = ({ messages, setMessages }) => {
                         </div>
                     ) : ''}
                     <div className='border-t border-gray-300/50 p-4'>
-                        <div className='flex space-x-2 mx-5'>
+                        <div className='flex space-x-2 md:mx-5'>
                             <input
                                 type="text"
                                 value={input}

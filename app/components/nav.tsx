@@ -3,7 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 
-export const Navigation: React.FC = () => {
+export const Navbar: React.FC = () => {
 	const ref = useRef<HTMLElement>(null);
 	const [isIntersecting, setIntersecting] = useState(true);
 
@@ -18,49 +18,17 @@ export const Navigation: React.FC = () => {
 	}, []);
 
 	return (
-		<header ref={ref}>
-			<div
-				className={`fixed inset-x-0 top-0 z-50 backdrop-blur  duration-200 border-b  ${isIntersecting
-					? "bg-zinc-900/0 border-transparent"
-					: "bg-zinc-900/500  border-zinc-800 "
-					}`}
-			>
-				<div className="container flex flex-row-reverse items-center justify-between p-6 mx-auto">
-					<div className="flex justify-between gap-8">
-						<Link
-							href="/portfolio"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							Portfolio
-						</Link>
-						<Link
-							href="/experience"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							Experience
-						</Link>
-						<Link
-							href="/blog"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							Blog
-						</Link>
-						<Link
-							href="/contact"
-							className="duration-200 text-zinc-400 hover:text-zinc-100"
-						>
-							Contact
-						</Link>
-					</div>
-
-					<Link
-						href="/"
-						className="duration-200 text-zinc-300 hover:text-zinc-100"
-					>
-						<ArrowLeft className="w-6 h-6 " />
+		<div
+			className={`w-full flex justify-center border-b border-gray-200 bg-[#001B44]/50 backdrop-blur-xl z-50 transition-all text-white`}
+		>
+			<div className="flex h-16 mx-5 items-center justify-between w-full">
+				<p className="text-2xl font-bold leading-tight tracking-tight md:tracking-tighter">
+					<Link href="https://www.thegilangpratama.com">
+						thegilangpratama
 					</Link>
-				</div>
+				</p>
+				<p className="hidden md:block">Empowering Conversations Through Smart Keyword Matching</p>
 			</div>
-		</header>
+		</div>
 	);
 };
